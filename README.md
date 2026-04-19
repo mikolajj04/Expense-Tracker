@@ -12,4 +12,4 @@ API do zarządzania finansami osobistymi. System pozwala użytkownikom na śledz
 - Rejestrowanie wydatków (kwota, data, opis, kategoria).
 - Zarządzanie kategoriami wydatków (Jedzenie, Rozrywka itp.).
 - Generowanie raportów finansowych (np. Podsumowanie miesiąca)
-- System powiadomień o przekroczeniu założonego budżetu miesięcznego.
+

@@ -2,7 +2,7 @@
 ## Opis projektu
 API do zarządzania finansami osobistymi. System pozwala użytkownikom na śledzenie codziennych wydatków, przypisywanie ich do kategorii oraz monitorowanie limitów budżetowych. Projekt skupia się na architekturze backendowej i zapewnieniu integralności danych finansowych.
 
-## (Wstępny) Stack Technologiczny
+## Stack Technologiczny
 - **Język:** Java 21 
 - **Framework:** Spring Boot 3
 - **Baza danych:** PostgreSQL

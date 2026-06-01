@@ -26,7 +26,7 @@ public class ExpenseService {
 
 
         Category category = categoryRepository.findById(categoryId)
-                .orElseThrow(() -> new RuntimeException("Category not found with id: " + categoryId));
+                .orElseThrow( () -> new RuntimeException("Category not found with id: " + categoryId));
 
 
         if (expense.getDate() == null) {

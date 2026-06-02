@@ -42,9 +42,11 @@ public class ExpenseService {
 
         return expenseRepository.save(expense);
     }
-    public List<Expense> getExpenses(Long userId) {
+    public List<Expense> getExpensesByUserId(Long userId) {
         return expenseRepository.findByUserId(userId);
     }
+
+
     public void deleteExpense(Long id) {
         if(!expenseRepository.existsById(id)) {
             throw new RuntimeException("Expense not found with id: " + id);
